@@ -1,0 +1,24 @@
+.row{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.heading{
+    color: #fff;
+    padding-bottom: 10px;   
+}
+
+.posts{
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posts{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.img{
+    max-height: 250px;
+}
