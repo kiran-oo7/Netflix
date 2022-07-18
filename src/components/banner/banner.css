@@ -2,7 +2,7 @@
     color: white;
     height: 600px;
     background-size: cover;
-    background-image: url('https://wallpaperaccess.com/full/2703652.png');
+    position:relative;
 }
 
 .content{
@@ -47,5 +47,6 @@
 .fade{
     height: 7.4rem;
     background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
-    margin-top: 114px;
+    position : absolute;
+    bottom:0;
 }
