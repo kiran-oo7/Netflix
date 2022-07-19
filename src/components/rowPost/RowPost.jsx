@@ -26,7 +26,8 @@ const RowPost = (props) => {
     console.log(id)
     axios.get(`movie/${id}/videos?api_key=${API_KEY}&language=en-US`).then((response)=>{
       if(response.data.results.length!==0){
-        setUrl(response.data.results[0])
+        setUrl(response.data.results[2])
+        console.log(response.data.results);
       }else{
         console.log('Trailer not available');
       }
