@@ -21,9 +21,16 @@
 .img{
     max-height: 250px;
     padding-left: 10px;
+    cursor: pointer;
 }
 
 .imgSmall{
     max-height: 200px;
     padding-left: 10px;   
+    cursor: pointer;
 }
+
+.img:hover{
+    transform: scale(1.2);
+}
+
