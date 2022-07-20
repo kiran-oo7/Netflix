@@ -12,11 +12,12 @@
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
-}
-
-.posts{
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+.posts::-webkit-scrollbar{
+    display: none;
 }
 .img{
     max-height: 250px;
